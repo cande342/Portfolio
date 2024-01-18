@@ -1,0 +1,21 @@
+.proyects-container{
+    background-color: #1e292a; margin: 0; background-size: cover;
+}
+
+
+.cards-container {
+      
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      margin-bottom: 80px;
+      
+  }
+
+.card {
+      width: 100%; 
+      padding: 15px;
+      
+    }
+
+

@@ -1,0 +1,14 @@
+
+
+.images {
+    display: block;
+    margin: 0; /* Elimina el margen predeterminado del contenedor */
+    padding: 0; /* Elimina el relleno predeterminado del contenedor */
+  }
+  
+  .images img {
+    display: block;
+    margin: 0; /* Elimina el margen predeterminado entre imágenes */
+    padding: 0; /* Elimina el relleno predeterminado entre imágenes */
+  }
+  
