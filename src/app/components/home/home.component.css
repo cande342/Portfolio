@@ -66,11 +66,12 @@
 
   }
   
-  .boton-training:hover {
-    background-color: rgba(40, 75, 84, 0.9); /* Ajusta la opacidad según tus preferencias */
-    margin-right: auto; /* Empuja el botón hacia la izquierda */
+  /* .boton-training:hover {
+    background-color: rgba(40, 75, 84, 0.9); 
+    margin-right: auto; 
     margin-left: auto;
-  }
+  }*/
+  
   
   a {
     color: inherit; /* Utiliza el color del texto del elemento padre */
