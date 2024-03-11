@@ -1,0 +1,52 @@
+
+
+
+
+<div class="cards-container">
+    <div class="card flex justify-content-center">
+        <p-card header="Music Player" subheader="JS, HTML y CSS" [style]="{ width: '200px' }" >
+            <ng-template pTemplate="header">
+                <img alt="Reproductor" src="{{imgReproductor}}" />
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <a href="https://cande342.github.io/reproductor_javascript/" target="_blank">
+                    <p-button label="Visitar"> </p-button>
+                </a>
+            </ng-template>
+        </p-card>
+</div>
+
+
+
+
+    <div class="card flex justify-content-center">
+        <p-card header="Board" subheader="Angular17, CDK y Bootstrap" [style]="{ width: '200px' }">
+            <ng-template pTemplate="header">
+                <img alt="Board" src="{{imgBoard}}" />
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <a href="https://github.com/cande342/Cinema_Board.git" target="_blank"> 
+                    <p-button label="Visitar"></p-button>
+                </a>
+            </ng-template>
+        </p-card>
+</div>
+    <div class="card flex justify-content-center">
+        <p-card header="Biblioteca" subheader="PHP, PhpMyAdmin y Bootstrap" [style]="{ width: '200px' }">
+            <ng-template pTemplate="header" >
+                <img alt="Tpweb" src="{{imgTPE}}" />
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <a href="https://github.com/antonellafernandez/TudaiWeb2Tpe2023" target="_blank"> 
+                    <p-button label="Web"></p-button>
+                </a>
+
+                <a href="https://github.com/cande342/TPEWeb_ApiRest" target="_blank">
+                    <p-button label="API" styleClass="p-button-secondary" [style]="{ 'margin-left': '.5em' }"></p-button>
+                </a>
+               
+                
+            </ng-template>
+        </p-card>         
+</div>
+</div>

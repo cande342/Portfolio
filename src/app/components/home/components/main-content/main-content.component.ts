@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProgressBarModule } from 'primeng/progressbar';
 
+
 @Component({
   selector: 'app-main-content',
   standalone: true,
@@ -14,5 +15,5 @@ export class MainContentComponent {
   logoJs: string='assets/iconos/js.png';
   logoAng: string='assets/iconos/angular.png';
   logoBoot: string='assets/iconos/bootstrap.png';
- 
+
 }

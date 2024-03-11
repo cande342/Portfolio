@@ -24,7 +24,7 @@
     margin-left: 20px;
     color: rgb(191, 198, 209);
     opacity: 0.5;
-    width: 550px;
+    width: 500px;
 }
 
 .icons-container{
@@ -44,21 +44,14 @@
     background-color: #284b54;
     border-radius: 5%; 
     opacity: 0.7;
+    padding-bottom: 15px;
 
 }
 
 .icon-element img{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 0%;
     width: 30px;
-    
-}
-
-.icon-element p{
-    color:  #cfb177;
-    width: 30px;
-    margin-top: 0%;
-    font-size: 11px;
     
 }
 
@@ -96,21 +89,30 @@
     color: aliceblue;
   }
 
-.about-me{
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+.enlaces a{
+    text-decoration: none;
+}
+.button-e{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 50px;
     border-radius: 15%;
-    margin-left: 200px;
-    margin-top: 30px;
     background-color: #284b54;
     color: #cfb177;
-    border: none; 
+    border: 1px solid #cfb177;
     cursor: pointer;
     transition: opacity 0.3s ease;
 }
-.about-me:hover {
+.button-e:hover {
     opacity: 0.8; 
   }

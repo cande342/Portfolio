@@ -7,26 +7,29 @@
     <div class="fondo-container">
       <div class="contenedor-barra">
         <div class="barra-superior">
-          <button class="boton-training">PLAY</button>
+               <button class="boton-training"> PLAY </button> 
         </div>
-      </div>
-  
-      <!-- Content -->
-      <div class="contenedor-inferior">
-        <div class="barra-lateral">
-          <app-sidebar></app-sidebar>
-        </div>
-        <div class="contenido-principal" style="background-image: url('{{rutaImagen}}'); position: relative;">
-          <app-main-content></app-main-content>
-        </div>
-      </div>
-  
-      <!-- Proyects -->
-      <div class="proyects" style="position: absolute; margin-top: 10%;">
-        <app-proyects></app-proyects>
+        <div class="enlaces"> 
+          <a target="_blank" href="//github.com/cande342"> <img src="{{logo1}}">  </a>
+          <a target="_blank" href="https://www.linkedin.com/in/candela-echaz%C3%BA-111805236/"> <img src="{{logo2}}"> </a>
+          <a target="_blank" href="mailto:gcandela894@gmail.com"><img src="{{logo3}}">  </a>
+         
       </div>
     </div>
   
+      <!-- Content -->
+        <div class="contenedor-inferior">
+          <div class="barra-lateral">
+            <app-sidebar></app-sidebar>
+          </div>
+          <div class="contenido-principal" style="background-image: url('{{rutaImagen}}'); position: relative;">
+            <app-main-content></app-main-content>
+          </div>
+        </div>
+      </div>  
+
+
   </body>
+
   
 

@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
-
+import { SidebarComponent } from '../sidebar/sidebar.component';
+import { MainProyectsComponent } from './main-proyects/main-proyects.component';
 @Component({
   selector: 'app-proyects',
   standalone: true,
-  imports: [CardModule, ButtonModule],
+  imports: [CardModule, ButtonModule, SidebarComponent, MainProyectsComponent],
   templateUrl: './proyects.component.html',
   styleUrl: './proyects.component.css'
 })
 export class ProyectsComponent {
 
-  imgReproductor: string ='assets/proyects/reproductor.png';
-  imgTPE: string ='assets/proyects/tpweb.png';
+  rutaFondo:string='assets/fondo-proyectos.png';
+  rutaFondoMain: string='assets/fondo-proyectos-main.png'
 
 }

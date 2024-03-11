@@ -1,5 +1,4 @@
 
-
 /* home.component.css */
 
 
@@ -25,6 +24,11 @@
     height: 375px;
   }
   
+  .barra-superior{
+    display: flex;
+    justify-content: space-between;
+    
+  }
   .contenido-principal {
     flex: 1;
     position: relative; 
@@ -51,16 +55,38 @@
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 200px;
+    justify-content:center;
+    width: 180px;
     height: 60px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     clip-path: polygon(88% 0, 100% 50%, 87% 100%, 0% 100%, 11% 50%, 0% 0%);
+
+
   }
   
   .boton-training:hover {
     background-color: rgba(40, 75, 84, 0.9); /* Ajusta la opacidad según tus preferencias */
+    margin-right: auto; /* Empuja el botón hacia la izquierda */
+    margin-left: auto;
   }
   
+  a {
+    color: inherit; /* Utiliza el color del texto del elemento padre */
+    text-decoration: none; /* Elimina la subrayado por defecto */
+    cursor: pointer; /* Cambia el cursor a la forma de un puntero al pasar el ratón */
+    outline: none; /* Elimina el contorno al hacer clic (especialmente útil para accesibilidad) */
+  }
+
+.enlaces{
+  display: flex;
+  margin-top: 8px;
+}
+.enlaces a{
+  margin-left: 200px;
+}
+.enlaces img{
+  width: 40px;
+  margin-right: 10px;
+}

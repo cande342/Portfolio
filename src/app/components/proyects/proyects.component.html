@@ -1,47 +1,20 @@
 
-  <div class="proyects-container"> 
-    <div class="cards-container">
-            <div class="card flex justify-content-center">
-                <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '300px' }">
-                    <ng-template pTemplate="header">
-                        <img alt="Card" src="{{imgReproductor}}" />
-                    </ng-template>
-                    <ng-template pTemplate="footer">
-                        <a href="https://cande342.github.io/reproductor_javascript/">
-                            <p-button label="Save" icon="pi pi-check"> </p-button>
-                        </a>
-                    </ng-template>
-                </p-card>
-        </div>
-            <div class="card flex justify-content-center">
-                <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '300px' }">
-                    <ng-template pTemplate="header">
-                        <img alt="Card" src="" />
-                    </ng-template>
-                    <ng-template pTemplate="footer">
-                        <a href="https://github.com/antonellafernandez/TudaiWeb2Tpe2023"> 
-                            <p-button label="Save" icon="pi pi-check"></p-button>
-                        </a>
-                    </ng-template>
-                </p-card>
-        </div>
-            <div class="card flex justify-content-center">
-                <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '300px' }">
-                    <ng-template pTemplate="header">
-                        <img alt="Card" src="{{imgTPE}}" />
-                    </ng-template>
-                    <ng-template pTemplate="footer">
-                        <a href="https://github.com/antonellafernandez/TudaiWeb2Tpe2023"> 
-                            <p-button label="Web"></p-button>
-                        </a>
+<body style="background-image: url('{{rutaFondoMain}}'); margin: 0; background-size: cover;">
+<div class="fondo-container">
 
-                        <a href="https://github.com/cande342/TPEWeb_ApiRest">
-                            <p-button label="API" styleClass="p-button-secondary" [style]="{ 'margin-left': '.5em' }"></p-button>
-                        </a>
-                       
-                        
-                    </ng-template>
-                </p-card>         
-        </div>
+    <div class="contenedor-barra">
+      <div class="barra-superior">
+        <a href=''>
+        <button class="boton-training">BACK</button>
+      </a>
+      </div>
     </div>
-</div> 
+
+    <!-- Content -->
+    <div class="contenido-principal" style="background-image: url('{{rutaFondoMain}}'); position: cover;">
+        <app-main-proyects></app-main-proyects>
+    </div>    
+
+</div>  
+</body>
+    
